@@ -7,8 +7,8 @@ jobs:
   build:
     docker:
       # Specify the version you desire here
-#      - image: circleci/php:7.3-stretch-node-browsers
-      - image: circleci/php:7.3.6-stretch
+      - image: circleci/php:7.3-stretch-node-browsers
+#      - image: circleci/php:7.3.6-stretch
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
@@ -22,8 +22,8 @@ jobs:
     steps:
       - checkout
 
-      - run: sudo apt update && sudo apt install zlib1g-dev libsqlite3-dev
-      - run: sudo docker-php-ext-install zip
+#      - run: sudo apt update && sudo apt install zlib1g-dev libsqlite3-dev
+#      - run: sudo docker-php-ext-install zip
 
       # Download and cache dependencies
 
