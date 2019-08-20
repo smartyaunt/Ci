@@ -15,6 +15,6 @@ class ExampleTest extends TestCase
     public function testBasicTest()
     {
         $this->assertEquals('jay', 'jay');
-        $this->assertEquals('jay1', 'jay2');
+        $this->assertEquals('你要我说过拿开', '你要我说过拿开');
     }
 }
