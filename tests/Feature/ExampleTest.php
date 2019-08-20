@@ -17,5 +17,6 @@ class ExampleTest extends TestCase
         $this->assertEquals('jay', 'jay');
         $this->assertEquals('你要我说过拿开', '你要我说过拿开');
         $this->assertEquals('好想大声说爱你', '好想大声说爱你');
+        $this->assertEquals('好想大声说爱你', '好想大声说爱你');
     }
 }
